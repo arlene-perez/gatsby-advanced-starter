@@ -1,0 +1,62 @@
+.slideshow-wrapper {
+  /* position: relative; */
+  max-width: 100%;
+  /* margin: 0 auto; */
+}
+
+.slideshow-container {
+  max-width: 700px;
+  height: auto;
+}
+
+.slideshow-image {
+  /* vertical-align: middle; */
+  height: auto;
+  max-width: 100%;
+  /* opacity: 0; */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-appear {
+  opacity: 0;
+}
+
+.image-appear.image-appear-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.image-enter {
+  opacity: 0;
+}
+
+.image-enter.image-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.image-enter-done {
+  opacity: 1;
+  background-color: #bada55;
+}
+
+.image-exit {
+  opacity: 1;
+  /* background-color: lightskyblue;
+  color: white; */
+}
+
+.image-exit.image-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+  /* background-color: red;
+  color: white; */
+}
+
+.image-exit-done {
+  opacity: 0;
+}

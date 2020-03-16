@@ -1,0 +1,30 @@
+.home {
+  padding: 100px 25px 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  color: whitesmoke;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+@media (min-width: 400px) {
+  .home {
+    padding: 150px 50px 0 50px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+}
+
+
+@media (min-width: 650px) {
+  .title {
+    font-size: 30px;
+  }
+}
